@@ -9,7 +9,7 @@ const UserSummaryCard = ({ userDetails, largestExpense, avgDailySpend, topMercha
         {/* Left: User Details */}
         <View style={styles.userInfo}>
           <Avatar.Icon size={50} icon="account" style={styles.profilePic} />
-          <Text style={styles.userName}>{userDetails.username}</Text>
+          <Text style={styles.userName}>{userDetails.first_name}</Text>
         </View>
 
         {/* Right: Expense Insights */}
