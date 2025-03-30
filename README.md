@@ -7,7 +7,7 @@ Cash Flow is an application designed to help users track their cash flow efficie
 
 ### Backend Microservices
 1. **AuthService** - Manages user signup, login, and authentication.
-2. **UserService** - Handles user-related data.
+2. **UserService** - Handles user-related and DB schema.
 3. **DataExtractionService** - Analyzes mobile notification messages using an LLM to extract merchant and amount details.
 4. **CashManager** - Manages Cash flow and transactions.
 
